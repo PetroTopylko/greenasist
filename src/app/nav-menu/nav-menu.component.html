@@ -1,0 +1,13 @@
+<div class="container-fluid none-padding">
+  <div class="top-navbar"></div>
+  <div class="left-sidebar">
+    <ul class='nav navbar-nav text-uppercase'>
+      <li [routerLinkActive]='["link-active"]' [routerLinkActiveOptions]='{ exact: true }'>
+        <a [routerLink]='["/"]'>Dashboard</a>
+      </li>
+      <li [routerLinkActive]='["link-active"]'>
+        <a [routerLink]='["/solar"]'>Solar</a>
+      </li>
+    </ul>
+  </div>
+</div>
