@@ -1,3 +1,42 @@
-<p>
-  solar tab
-</p>
+<div class="container-fluid none-padding">
+  <div class="row">
+    <div class="col">
+      <div class="rens-tabset">
+        <ngb-tabset #tabs>
+          <ngb-tab id="tab-0">
+            <ng-template ngbTabTitle>
+              <span class="tab-name text-uppercase">Models</span>
+            </ng-template>
+            <ng-template ngbTabContent>
+              <p>Models list</p>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab id="tab-2">
+            <ng-template ngbTabTitle>
+              <span class="tab-name text-uppercase">Parameters</span>
+            </ng-template>
+            <ng-template ngbTabContent>
+              <p>Parameters list</p>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab id="tab-3">
+            <ng-template ngbTabTitle>
+              <span class="tab-name text-uppercase">Data Versions</span>
+            </ng-template>
+            <ng-template ngbTabContent>
+              <p>Data Versions</p>
+            </ng-template>
+          </ngb-tab>
+          <ngb-tab id="tab-4">
+            <ng-template ngbTabTitle>
+              <span class="tab-name text-uppercase">Map View</span>
+            </ng-template>
+            <ng-template ngbTabContent>
+              <p>Solar Map View</p>
+            </ng-template>
+          </ngb-tab>
+        </ngb-tabset>
+      </div>
+    </div>
+  </div>
+</div>
